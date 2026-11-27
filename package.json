@@ -1,0 +1,16 @@
+{
+  "name": "proofline-review-harness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local proofs for a five-defect pull request reviewed by Proofline.",
+  "scripts": {
+    "verify": "./run-all.sh"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
